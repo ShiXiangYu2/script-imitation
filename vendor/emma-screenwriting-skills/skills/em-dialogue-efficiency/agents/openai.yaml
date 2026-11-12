@@ -1,0 +1,6 @@
+interface:
+  display_name: "艾玛短剧 · 台词效率（两步版入口）"
+  short_description: "转入统一台词两步流程，先检查场景与人物，再评分并完成全范围删改"
+  default_prompt: "使用 $em-dialogue-efficiency 调用统一的台词两步流程，检查全部指定对白，给出评分表与完整改稿。"
+policy:
+  allow_implicit_invocation: true
